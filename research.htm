@@ -1,0 +1,122 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+
+<HEAD>
+<TITLE>Yanfeng Lu's Homepage</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=en-us>
+<META content="Yanfeng Lu" name=KEYWORDS>
+<LINK title=graphics media=screen href="templates/my_style.css" type=text/css rel=stylesheet>
+<LINK title=graphics media=print href="templates/my_print.css" type=text/css rel=stylesheet>
+<SCRIPT type="text/javascript" src="templates/jquery.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="templates/slimbox2.js"></SCRIPT>
+<LINK rel="stylesheet" href="templates/slimbox2.css" type="text/css" media="screen">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="templates/dropdowns.js"></script>
+</HEAD>
+
+<BODY>
+
+<!-- Start header -->
+<DIV id=header>
+  Yanfeng Lu
+</DIV>
+<!-- End header -->
+
+<!-- Show ruler only to old browsers which do not support CSS or text only browsers to separate content -->
+<HR>
+
+<!-- Start navigation -->
+<DIV id=navigation>
+
+<div class="toggleMenu" onclick="toggle3Bars(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<UL class="nav">
+  <LI><A title="Profile and Contact" href="index.htm">Home</A></LI>
+  <LI><A title="Research Areas and Projects" href="research.htm">Research</A>
+    <UL>
+      <LI><A href="computer.htm">Computer Science</A>
+        <UL>
+          <LI><A href="researchVAS_p1.htm">HTS and Unit Selection</A></LI>
+          <LI><A href="researchVAS_p2.htm">TTS with Deep Learning</A></LI>
+        </UL></LI>
+      <LI><A href="philosophy.htm">Philosophy</A>
+        <UL>
+          <LI><A href="researchPOT_p1.htm">Characterization of Tech.</A></LI>
+          <LI><A href="researchPOT_p2.htm">Chinese Phil. of Tech.</A></LI>
+        </UL></LI>
+    </UL></LI>
+  <LI><A title="Art Interests and Practices" href="arts.htm">Arts</A>
+    <UL>
+      <LI><A href="photography.htm">Photography</A>
+        <UL>
+          <LI><A href="photosAmerica.htm">American West</A></LI>
+          <LI><A href="photosChina.htm">China</A></LI>
+          <LI><A href="photosEurope.htm">Europe</A></LI>
+          <LI><A href="photosSingapore.htm">Singapore</A></LI>
+        </UL></LI>
+      <LI><A href="poetry.htm">Poetry</A>
+        <UL>
+          <LI><A href="poemsSample.htm">Sample Poems</A></LI>
+          <LI><A href="poemsYeats.htm">William Yeats</A></LI>
+          <LI><A href="poemsHesse.htm">Hermann Hesse</A></LI>
+        </UL></LI>
+    </UL>
+  <LI><A title="Finished and Published Works" href="works.htm">Works</A></LI>
+  <LI><A title="Participated Activities" href="activities.htm">Activities</A></LI>
+  <LI><A title="Personal and Professional Background" href="background.htm">Background</A></LI>
+</UL>
+<A href="Chinese/index_c.htm" title="Go to Chinese version">中文</A>
+<A href="https://www.linkedin.com/in/yanfeng-lu-6914701">LinkedIn</A>
+
+</DIV>
+<!-- End navigation -->
+
+<script>
+    $("#navigation").dropdowns();
+</script>
+
+<!-- Start main body -->
+<DIV id=main>
+
+  <h1>Research Areas and Projects</h1>
+
+  <p>
+  <a href="#_Intro">Introduction</a><br>
+  <a href="computer.htm">Speech Synthesis</a><br>
+  <a href="philosophy.htm">Philosophy of Technology</a><br>
+  </p>
+
+  <a name="_Intro"></a>
+  <h2>Introduction</h2>
+    <p>After ten years of work in the IT industry and close to three years of PhD study I decided to move into academia and start to do research. Chances had driven me into the field of <strong>Human Language Processing</strong> (HLP), a new but not strange territory. <strong>Speech Synthesis</strong> in particular is an interdisciplinary area mostly based on linguistics, computer science and audio signal processing. I had done no specific work in this area before, but I did have more than preliminary knowledge in linguistics, acoustics, let alone document and text processing. Since it's new some learning overhead was necessary. But with my related background I was able to get to the essential part in a short period of time. Meanwhile I have found much interest in the area.</p>
+
+    <p>Language is one of the defining features of human beings and definitely one pillar of human intelligence. Therefore, HLP has been an essential part of Artificial Intelligence (AI) since the beginning of its several decades of history. Compared with other areas of HLP, speech synthesis, precisely text-to-speech (TTS) synthesis, is a relatively easier task. On the one hand, text is a more regulated and easily manageable source than speech. In other words, text has less degree of freedom than speech. So speech synthesis is easier than speech recognition. On the other hand, basic text-to-speech mapping is easy to achieve. It could be done just on the word level. So speech synthesis is easier than translation, which cannot be done on the word level. That's why intelligibility had been generally achieved long time ago in TTS synthesis while other areas are still striving for accuracy. However, TTS synthesis cannot lie on this advantage. With the advantage comes higher expectation. It has to aim higher, higher than basic  intelligibility. This can be achieved still in the above two respects. One direction is to handle more diverse text. But more importantly we have to make the synthesized speech more expressive. <strong>Expressiveness</strong> includes prosody (duration, pitch, strength and rhythm), personalization (personal characteristics), emotion (e.g. happiness, sadness, anger), etc. This is our current research focus.</p>
+
+    <p>Many techniques in speech signal processing can be transferred to <strong>music signal processing</strong> (MSP). Speech signal and music signal are both audio signals and therefore share some common characteristics. General audio features in both kinds of signals can be processed with the same algorithms. But definitely music has its unique features compared with speech. Here we need knowledge of music theory rather than linguistics. With the growing demand in the internet age MSP has become an integral part of our research portfolio. For my personal development, it gives me a chance to deepen my knowledge of music theory and try something new in another interesting area.</p>
+
+    <p>At home I try to extend my PhD study in <strong>Philosophy of Technology</strong> and <strong>Modernity Theory</strong> and further develop key ideas in my dissertation. The current projects are <strong>philosophical characterization of technology</strong>, <strong>Chinese philosophy of technology</strong> and <strong>Chinese modernity construction</strong>. For a long time people had been talking about science and technology at the same time. Under the once standard conception of "technology as applied science," technology had eluded close scrutiny until very recently. It turned out that it's far more complicated. It definitely has close relationship with science, especially in its modern phase. However, design makes it comparable to art and  with function it has significant ethical and political implications. A more comprehensive view of technology requires a <stong>triple characterization</strong>. In my dissertation I criticized both the dystopian and utopian views of modern technology and advocated a <strong>balanced stance</strong>. On the one hand we shouldn't demonize modern technology and blame it for all the modern malaises. On the other hand we should put modern technology in its appropriate role, which entails some kinds of control. One of my theses is that technology in traditional Chinese culture once embodied this balanced stance. Technology was well developed in traditional China, but it was always kept in a subordinate role. This balanced stance was lost step by step in the modernization process. A stronger support demands a comprehensive survey of Chinese thought about technology, from Pre-Qin to the modern period. This is the main content of the second project.</p>
+    
+    <p>Chinese modernity construction has a much larger scope, both in breadth and depth. In gereral, Chinese modernity should be a <strong>synthesis of Chinese culture and modernity</strong>. This requires deconstruction of both Chinese traditional culture and Western modernity. The task of the first part is to identify the essential characteristics of Chinese culture, whereas the task of the second part is to extract the modern elements from Western modernity, filtering out the Western elements. In this project, we have to consider major aspects of Chinese and Western culture, and dive into their foundation. From the perspective of Chinese culture, Chinese modernity construction is its second fundamental revival. The <strong>second revival</strong> is said with reference to the first. The first revival of Chinese culture happened in the Song Dynasty about a millenium ago. It was the reaction of Chinese culture to the fundamental impact of Buddhism. In parallel, the second revival is the reaction of Chinese culture to the fundamental impact of Christianity. Both revivals are said against the formation of Chinese culture during the Pre-Qin period.</p>
+
+</DIV>
+<!-- End main body -->
+
+<!-- Start footer-->
+<DIV id=footer>
+<HR>
+<P><strong>Copyright © 2013-2023 Yanfeng Lu</strong><br>Institute for Infocomm Research, A*STAR Singapore</P>
+<P align=justify>All the texts, images, audios, videos and designs contained in this website are the intellectual property of the owner. Academic or personal uses should be accompanied by clear source specification. Commercial uses are permitted only with formal letters from the owner. All rights reserved!</P>
+<P align=justify>Institute for Infocomm Research is where the author does his current research in computer science. All the other contents are the personal work of the author and are not associated with the institute.</P>
+<P>Last updated on 
+Wed, 11 Jan. 2023</DIV>
+<!-- End footer -->
+
+</BODY>
+</HTML>

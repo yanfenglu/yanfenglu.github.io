@@ -1,0 +1,259 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+
+<HEAD>
+<TITLE>Yanfeng Lu's Homepage</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=en-us>
+<META content="Yanfeng Lu" name=KEYWORDS>
+<LINK title=graphics media=screen href="templates/my_style.css" type=text/css rel=stylesheet>
+<LINK title=graphics media=print href="templates/my_print.css" type=text/css rel=stylesheet>
+<SCRIPT type="text/javascript" src="templates/jquery.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="templates/slimbox2.js"></SCRIPT>
+<LINK rel="stylesheet" href="templates/slimbox2.css" type="text/css" media="screen">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="templates/dropdowns.js"></script>
+</HEAD>
+
+<BODY>
+
+<!-- Start header -->
+<DIV id=header>
+  Yanfeng Lu
+</DIV>
+<!-- End header -->
+
+<!-- Show ruler only to old browsers which do not support CSS or text only browsers to separate content -->
+<HR>
+
+<!-- Start navigation -->
+<DIV id=navigation>
+
+<div class="toggleMenu" onclick="toggle3Bars(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<UL class="nav">
+  <LI><A title="Profile and Contact" href="index.htm">Home</A></LI>
+  <LI><A title="Research Areas and Projects" href="research.htm">Research</A>
+    <UL>
+      <LI><A href="computer.htm">Computer Science</A>
+        <UL>
+          <LI><A href="researchVAS_p1.htm">HTS and Unit Selection</A></LI>
+          <LI><A href="researchVAS_p2.htm">TTS with Deep Learning</A></LI>
+        </UL></LI>
+      <LI><A href="philosophy.htm">Philosophy</A>
+        <UL>
+          <LI><A href="researchPOT_p1.htm">Characterization of Tech.</A></LI>
+          <LI><A href="researchPOT_p2.htm">Chinese Phil. of Tech.</A></LI>
+        </UL></LI>
+    </UL></LI>
+  <LI><A title="Art Interests and Practices" href="arts.htm">Arts</A>
+    <UL>
+      <LI><A href="photography.htm">Photography</A>
+        <UL>
+          <LI><A href="photosAmerica.htm">American West</A></LI>
+          <LI><A href="photosChina.htm">China</A></LI>
+          <LI><A href="photosEurope.htm">Europe</A></LI>
+          <LI><A href="photosSingapore.htm">Singapore</A></LI>
+        </UL></LI>
+      <LI><A href="poetry.htm">Poetry</A>
+        <UL>
+          <LI><A href="poemsSample.htm">Sample Poems</A></LI>
+          <LI><A href="poemsYeats.htm">William Yeats</A></LI>
+          <LI><A href="poemsHesse.htm">Hermann Hesse</A></LI>
+        </UL></LI>
+    </UL>
+  <LI><A title="Finished and Published Works" href="works.htm">Works</A></LI>
+  <LI><A title="Participated Activities" href="activities.htm">Activities</A></LI>
+  <LI><A title="Personal and Professional Background" href="background.htm">Background</A></LI>
+</UL>
+<A href="Chinese/index_c.htm" title="Go to Chinese version">中文</A>
+<A href="https://www.linkedin.com/in/yanfeng-lu-6914701">LinkedIn</A>
+
+</DIV>
+<!-- End navigation -->
+
+<script>
+    $("#navigation").dropdowns();
+</script>
+
+<!-- Start main body -->
+<DIV id=main>
+
+  <h1>Research Areas and Projects</h1>
+
+  <p>
+  <a href="#_TTS">Speech Synthesis Using HMM and Unit Selection</a><br>
+    &nbsp;&nbsp;<a href="#_HMM">The Hidden Markov Model (HMM)</a><br>
+    &nbsp;&nbsp;<a href="#_HTS">Speech Synthesis with HMM</a><br>
+    &nbsp;&nbsp;<a href="#_US">Speech Synthesis with Unit Selection</a><br>
+    &nbsp;&nbsp;<a href="#_Hybrid">The Hybrid System</a><br>
+    &nbsp;&nbsp;<a href="#_Ref">Key References and Links</a><br>
+  </p>
+
+  <a name="_TTS"></a>
+  <h3>Speech Synthesis Using Hidden Markov Model and Unit Selection</h3>
+    <p>Although the two currently dominant speech synthesis approaches, the hidden Markov Model and unit selection, are both based on raw speech data, they use data in quite different ways. The former approach tries to construct statistical models of various acoustic parameters out of the raw data and generate new speech on the basis of the models. So what's important is not just the statistical models, but also the acoustic model. What parameters to use, how to extract those parameters from real speech and how to construct new speech from those parameters stand at the center of the acoustic model. In contrast, the latter approach follows a different analysis-synthesis path. The speech data are first broken into units, usually phones, and put into a database. In generating new speech the appropriate units are selected from the database and concatenated together. The approriateness of the selection is guided by unit similarity and concatenation smoothness on the basis of linguistic and acoustic parameters (features/contexts). The following diagram depicts the conceptual difference between the two approaches. The path of the hidden Markov model approach is colored blue and that of the unit selection approach red.<br>
+    <div id="diagram"><img src="images/diagrams/HMM-US.jpg" width="100%"></div></p>
+
+  <a name="_HMM"></a>
+  <h4>The Hidden Markov Model (HMM)</h4>
+    <p>Modelling is a basic scientific method, ranging from the model of an atom to the model of an economy. The basic tension in modelling is that between approximity and manageability. Every model is a representation of reality, but not reality itself. However we want our model to approximate reality. If it's too far off, it doesn't make much sense. On the other hand, the model has to be manageable. If it's too complicated, it's also useless. Therefore, simplification is inevitable in every model. The reason why the hidden Markov model has been successfully adopted in a variety of fields is that it makes a nice trade-off between approximity and manageability.</p>
+
+    <p>The hidden Markov model concerns a time series, which covers a wide range of phenomena, including human speech. A time series, basically a process, could be as complex as one can imagine. The model makes things manageable with a bunch of simplifications:<br>
+    <ul>
+    <li><strong>Finite state set</strong> The states in the time series are from a finite set.
+    <li><strong>Markov chain</strong> The transition to the next state is only determined by the current state. In other words, all the history is contained and represented in the present.
+    <li><strong>Stationary transition</strong> The transition between states is constant in time.
+    <li><strong>State-based observation</strong> The observation is determined only by the state at a particular point in time. It has nothing to do with history or other states.
+    </ul>
+    <p>With the above assumptions the hidden Markov model <font face="times">&lambda;</font> consists of the following elements:<br>
+    <ul>
+    Initial state probability <font face="times"><strong>&Pi;</strong>: <em>&pi;<sub>i</sub></em>, 1&lt;<em> i &lt;N</em></font>,<br>
+    Transition probability <font face="times"><strong>A</strong>: <em>a<sub>ij</sub></em>, 1&lt;<em> i, j &lt;N</em></font> &amp;<br>
+    Observation probability <font face="times"><strong>B</strong>: <em>b<sub>i</sub></em>(<strong><em>o</em></strong>), 1&lt;<em> i &lt;N</em></font>,
+    </ul>
+    <p>where <font face="times"><em>N</em></font> is the size of the state set. <font face="times"><em>b<sub>i</sub></em>(<strong><em>o</em></strong>)</font> is usually modelled by a mixture of multivariate Gaussian distributions. The following examples are taken from Yamagishi's <a href="https://wiki.inf.ed.ac.uk/twiki/pub/CSTR/TrajectoryModelling/HTS-Introduction.pdf"><em>An Introduction to HMM-Based Speech Synthesis</em></a>. Apparently <font face="times">(b)</font> is simpler than <font face="times">(a)</font>. When we choose <font face="times">(b)</font> instead of <font face="times">(a)</font>, we make yet another simplification.<br>
+    <div id="diagram"><img src="images/diagrams/HMM_examples.jpg" height=170></div></p>
+    <p>In practical situations the model is hidden from us. What we have are observations. So a useful problem to solve is to figure out the model behind the phenomena. A straightforward principle is the maximum likelihood (ML) criterion: Given the observation sequence <font face="times"><strong><em>O</em></strong> = (<strong><em>o</em></strong><sub>1</sub>, <strong><em>o</em></strong><sub>2</sub>,..., <em><strong>o</strong><sub>T</sub></em>)</font> we want to find the optimal model <font face="times">&lambda;<sup>*</sup></font> which maximizes the likelihood of <font face="times"><strong><em>O</em></strong></font>:<br>
+    <div id="math"><table>
+      <tr><td>&lambda;<sup>*</sup>&nbsp;=</td> <td>&nbsp;argmax&nbsp;</td> <td><em>P</em></td> <td>(<strong><em>O</em></strong>&nbsp;|&nbsp;&lambda;).</td></tr>
+      <tr><td>&nbsp;</td> <td><sup>&lambda;</sup></td> <td>&nbsp;</td> <td>&nbsp;</td></tr>
+    </table></div>
+    <p>Once we pick the number of states <font face="times"><em>N</em></font>, determining the model boils down to calculating the various probability values in the model. There is no direct way to do that. Fortunately a method to approach the values iteratively has been discovered. This is the Baum-Welch algorithm. And it's behind the training process of HMM.</p>
+
+  <a name="_HTS"></a>
+  <h4>Speech Synthesis with HMM</h4>
+    <p>HMM-based speech synthesis (<a href="http://hts.sp.nitech.ac.jp/">HTS</a>) is a data-driven approach. The speech data are first analysed into a set of acoustic parameters. Then statistical models of those parameters are trained out of the data. And finally, given a target text, the corresponding parameters are generated out of the models and are used to generate the target speech in turn.</p>
+
+    <h5>Choice of acoustic parameters</h5>
+    <p>Choosing the correct parameters is the central part of the acoustic model. A good set of parameters should be able to capture essential aspects of human speech, so that when a piece of speech goes through the analysis-synthesis process it still sounds close to the original. The acoustic parameters that are often used in the current HTS systems are spectrum and F0. Different models may be chosen for the spectrum in turn, such as LSP (Linear Spectral Pair) and MFCC (Mel-Frequency Cepstral Coefficients). When a speech wave form is analysed it's segmented into small frames (usually 5ms wide) and the spectral parameters and F0 are computed for each frame within a covering window. After that we have a series of parameter values for each piece of speech data.</p>
+
+    <h5>Parameter modelling or model training</h5>
+    <p>Parameter modelling here means to build an HMM for a parameter through training with the speech data. In order to achieve smooth target speech the acoustic parameters of a frame are not modelled separately, but with those of surrounding frames. The latter is represented in the velocity and acceleration components. A single Gaussian distribution is enough for the observation probability in the HMM for the spectral parameters. But since F0 is non-continuous (0 for unvoiced parts) a multi-space distribution is needed. An important factor in speech synthesis with the HMMs of the acoustic parameters is the duration of the states. That tells us how many frames each state should occupy in the target speech. It's difficult to derive the state duration from the state transition probability of the acoustic HMM. Hence a duration model needs to be trained separately.</p> 
+    <p>All the acoustic parameters could be trained together. A typical acoustic HMM has the following structure: <br>
+    <ul>
+    State 1 (the initial state)<br>
+    State 2<br> 
+      <ul>
+      Stream 1 (<em>M</em>x3 means & variances, <strong>spectral parameters</strong> static, velocity & acceleration)<br>
+      Stream 2 (<strong>log F0 static</strong>)<br>
+        <ul>
+        Mixture 1 (weight; mean & variance)<br>
+        Mixture 2 (weight; mean & variance)<br>
+        </ul>
+      Stream 3 (<strong>log F0 velocity</strong>)<br>
+        <ul>
+        Mixture 1 (weight; mean & variance)<br>
+        Mixture 2 (weight; mean & variance)<br>
+        </ul>
+      Stream 4 (<strong>log F0 acceleration</strong>)<br>
+        <ul>
+        Mixture 1 (weight; mean & variance)<br>
+        Mixture 2 (weight; mean & variance)<br>
+        </ul>
+      </ul>
+    State 3<br>
+    ...<br>
+    State 4<br>
+    .<br>
+    .<br>
+    State <em>N</em>-1<br>
+    ...<br>
+    State <em>N</em> (the final state)<br>
+    Transition Probability (<em>N</em>x<em>N</em> double)
+    </ul></p>
+    <p>where <em>M</em> is the dimension of the spectral parameters and <em>N</em> the number of states.</p>
+    <p>HMMs are essentially generalization of the parameters on the basis of speech data. The speech data normally come in sentences. If we treat each sentence as a unit we would build a super model for all the sentences. The generalization in this case would be too difficult to reach, due to the huge diversity. So we need to divide the data space. An obvious improvement is to treat each phone as a unit and build a model for each phone in the phone set. But the phone models of this kind are still too general, well beyond the power of a simply structured HMM. Therefore further division is necessary. The solution is to assign phones from the speech data to various clusters according to their linguistic features/contexts. This is done with a decision tree based on a set of questions related to the linguistic features/contexts. Then an HMM is built for each cluster. The basic assumption behind clustering is that items assigned to the same cluster are similar in terms of the relevant parameters, acoustic parameters in this case.</p> 
+    <p>The structure of an HMM looks very simple. At first glance we would wonder how such a simple model can capture all the complexity of human speech. Now we see the magic of HMM relies heavily on other theories. The acoustic model is one. And the clustering effectively divides a complex problem and assigns a much easier job to HMM. A clear picture of the context of HMM can help us take full advantage of it.</p>
+
+    <h5>Parameter generation</h5>
+    <p>Now we have all the models for the clustered phones and are ready to synthesize a new speech, given the target text. First the text will be analysed into phones with their linguistic features/contexts. With this information the corresponding clusters in the decision tree can be found. The acoustic parameters corresponding to each target phone will be generated out of the associated HMMs.</p>
+    <p>Basically this is the reverse process of model training. But the basic principle is the same, that is, the maximum likelihood criterion. In model training we want to find the optimal model that maximizes the likelihood of the observation. Reversely, in parameter generation we want to find the most likely observation <font face="times"><strong><em>O</em></strong><sup>*</sup></font> given the model <font face="times">&lambda;</font> and the pre-determined observation duration <font face="times"><em>T</em></font>, on the basis of the duration model:<br>
+    <div id="math"><table>
+      <tr><td><strong><em>O</em></strong><sup>*</sup>&nbsp;=</td> <td>&nbsp;argmax&nbsp;</td> <td><em>P</em></td> <td>(<strong><em>O</em></strong>&nbsp;|&nbsp;&lambda;,&nbsp;<em>T</em>)</td></tr>
+      <tr><td>&nbsp;</td> <td><strong><em><sup>O</sup></em></strong></td> <td>&nbsp;</td> <td>&nbsp;</td></tr>
+    </table></div>
+    <p>Using the most likely state sequence <font face="times"><strong><em>q</em></strong>*</font> (instead of all state sequences) to approximate the above value, the problem is divided into the following two:<br>
+    <div id="math"><table>
+      <tr><td><strong><em>q</em></strong>*&nbsp;=</td> <td>&nbsp;argmax&nbsp;</td> <td><em>P</em></td> <td>(<strong><em>q</em></strong>&nbsp;|&nbsp;&lambda;,&nbsp;<em>T</em>)&nbsp;&amp;</td></tr>
+      <tr><td>&nbsp;</td> <td><strong><em><sup>q</sup></em></strong></td> <td>&nbsp;</td> <td>&nbsp;</td></tr>
+    </table></div>
+    <div id="math"><table>
+      <tr><td><strong><em>O</em></strong><sup>*</sup>&nbsp;=</td> <td>&nbsp;argmax&nbsp;</td> <td><em>P</em></td> <td>(<strong><em>O</em></strong>&nbsp;|&nbsp;<strong><em>q</em></strong>*,&nbsp;&lambda;,&nbsp;<em>T</em>).</td></tr>
+      <tr><td>&nbsp;</td> <td><strong><em><sup>O</sup></em></strong></td> <td>&nbsp;</td> <td>&nbsp;</td></tr>
+    </table></div>
+    <p>These equations are much easier to solve. And finally with the sequence of generated acoustic parameter values the target speech can be created with a certain wave synthesizer.</p>
+
+  <a name="_US"></a>
+  <h4>Speech Synthesis with Unit Selection</h4>
+    <p>Speech synthesis with unit selection (TTS-US) is quite a different approach than HTS. It segments speech data into units and synthesizes the target speech by selecting the appropriate units and concatenating them together.</p>
+
+    <h5>Choice of unit</h5>
+    <p>The unit could be set on different acoustic/linguistic levels, from frames through phones to phrases. And the units used in the same system don't have to be uniform.
+
+    <h5>Criteria of unit selection</h5>
+    <p><a href="https://www.era.lib.ed.ac.uk/bitstream/1842/1082/1/Hunt%201996.pdf">Hunt and Black's pioneering paper</a> proposed a cost function for the unit selection. The cost function consisted of two parts: the target cost for each candidate unit and the concatenation cost for two adjacent candidate units. Thus the principle of unit selection was to choose the units with the minimum total cost for the whole target sentence. This set the framework for later speech synthesis systems adopting the unit selection approach. Generally speaking the first part favours candidates that are similar to the target units and the second part favours candidates that concatenate well with each other.</p>
+    <p>The similarity between the candidate and target units can be defined in terms of a set of linguistic parameters. When the speech data are processed these parameters can be computed and stored together with the units in the database. And those for the target unit can be computed from the target text. Besides linguistic parameters acoustic parameters may also be used in calculating the concatenation cost, because this relates to two candidate units. The cost function contains a bunch of weights, which reflect the relative importance of various parameters.</p>
+
+    <h5>Selection algorithm</h5>
+    <p>Given a target text containing <font face="times"><em>n</em></font> units, and suppose the number of candidates for each unit is in the size of <font face="times"><em>m</em></font>, the possible combinations of candidate text are approximately <font face="times"><em>m<sup>n</sup></em></font>. Obviously it's not feasible to traverse all the possible combinations to find the optimal one. Some kind of pruning is necessary. A solution is to pick a certain number of best candidates at each step as we construct the optimal target speech unit by unit. This is the widely used Viterbi algorithm with greedy pruning.</p>
+
+    <h5>Unit concatenation</h5>
+    <p>Since concatenation is part of the unit selection criterion, no complex technique is needed for the final concatenation. But directly putting the selected units together would be too crude. So usually a simple technique such as cross-fade is used in unit concatenation.</p>
+
+  <a name="_Hybrid"></a>
+  <h4>The Hybrid System</h4>
+    <p>Now we can compare the above two approaches (HTS and TTS-US) in terms of practicality and effectiveness. Their essential difference may be summarized as this: whereas HTS makes generalization about the speech data, TTS-US uses the data directly. So the quality of TTS-US relies on the quantity and diversity of the speech data. In contrast, with generalization HTS could live with a small amount of data. On the other hand, model training in HTS takes extra time, which is the price of generalization. And more importantly acoustic analysis and synthesis are much more artificial than simple unit segmentation and concatenation. That's why TTS-US generates more natural speech than HTS, given sufficient speech data. If we flip the coin again, this artificiality just gives HTS more flexibility. On the basis of the generated acoustic parameters we could do all kinds of transformation. But the effect of the same transformation with selected units is not as good.</p>
+    <p> we can list the above comparison in the following table:<br>
+    <table>
+    <tr><th>&nbsp;</th> <th><strong>HTS</strong></th> <th><strong>TTS-US</strong></th></tr>
+    <tr><td><strong>Quantity and Diversity of Speech Data</strong></td> <td>lower reliance</td> <td>higher reliance</td></tr>
+    <tr><td><strong>Modelling</strong></td> <td>necessary</td> <td>unnecessary</td></tr>
+    <tr><td><strong>Naturalness</strong></td> <td>lower</td> <td>higher</td></tr>
+    <tr><td><strong>Flexibility</strong></td> <td>good</td> <td>poor</td></tr>
+    <caption>Table: Feature Comparison between HTS and TTS-US</caption>
+    </table></p>
+    <p>In the table we see advantages and disadvantages on both sides. A natural question arises: can we combine the two approaches to have the advantages and overcome the disadvantages? The answer is, why not. That's the basic motivation behind the hybrid system, which combines the two approaches in the same TTS system. However, the existing hybrid systems are mostly focused on using HMM to facilitate or further guide unit selection. An example of the former is to use the Kullback-Leibler divergence (KLD) between the models to pre-select units. An example of the latter is to use probability based on the models as the cost function for unit selection.</p>
+    <p>As a subject of future exploration we might want to mix the two approaches further, so that we could have both naturalness and flexibility. Some specific hybrid approaches toward this direction deserve more experiments.</p>
+
+  <a name="_Ref"></a>
+  <h4>Key References and Links</h4>
+    <p><em>References</em></p>
+      <p><ul>
+      <li>P. Taylor, <a href="http://www.amazon.com/Text---Speech-Synthesis-Paul-Taylor/dp/0521899273"><em>Text-to-Speech Synthesis</em></a>, Cambridge University Press, 2009 -- A comprehensive introduction to TTS, including the mathematical foundation, linguistics, acoustics, signal processing, historical and current approaches and other aspects.
+      <li>A. Hunt & A. Black, "<a href="documents/UnitSelection_Hunt1996.pdf">Unit Selection in a Concatenative Speech Synthesis System Using a Large Speech Database</a>," <em>Proc. ICASSP</em>, pp. 373-376, May 1996 -- The pioneering paper of unit selection.
+      <li>L. Welch, <a href="documents/Baum-Welch_Algorithm.pdf">"Hidden Markov Models and the Baum-Welch Algorithm"</a> -- The author has a clearer explanation. All the hidden assumptions are revealed, which makes it easier to understand.
+      <li><a href="https://www.danielpovey.com/files/htkbook.pdf"><em>The HTK Book</em></a> -- Everything about the Hidden Markov Model Toolkit.
+      <li>J. Yamagishi, <a href="documents/HTS-Introduction.pdf">"An Introduction to HMM-Based Speech Synthesis"</a> -- A nice introduction to HTS.
+      <li>H. Zen, K. Tokuda & A. Black, "<a href="http://mlsp.cs.cmu.edu/courses/fall2012/lectures/spss_specom.pdf">Statistical Parametric Speech Synthesis</a>," <em>Speech Communication</em>, vol. 51, pp. 1039-1064, Nov. 2009 -- A comprehensive summary of the unit selection, HMM and hybrid approaches. 
+      <li>A. Black, H. Zen & K. Tokuda, "<a href="https://www.cs.cmu.edu/~awb/papers/icassp2007/0401229.pdf">Statistical Parametric Speech Synthesis</a>," <em>Proc. ICASSP</em>, vol. 4, pp. 1229-1232, 2007 -- A light weight version of the previous.
+      </ul></p>
+
+    <p><em>Links</em></p>
+      <p><ul>
+      <li><a href="http://htk.eng.cam.ac.uk/">HTK</a>
+      <li><a href="http://hts.sp.nitech.ac.jp/">HTS</a>
+      <li><a href="http://festvox.org/blizzard/">Blizzard Challenge</a>
+      </ul></p>
+
+</DIV>
+<!-- End main body -->
+
+<!-- Start footer-->
+<DIV id=footer>
+<HR>
+<P><strong>Copyright © 2013-2023 Yanfeng Lu</strong><br>Institute for Infocomm Research, A*STAR Singapore</P>
+<P align=justify>All the texts, images, audios, videos and designs contained in this website are the intellectual property of the owner. Academic or personal uses should be accompanied by clear source specification. Commercial uses are permitted only with formal letters from the owner. All rights reserved!</P>
+<P align=justify>Institute for Infocomm Research is where the author does his current research in computer science. All the other contents are the personal work of the author and are not associated with the institute.</P>
+<P>Last updated on 
+Wed, 11 Jan. 2023</DIV>
+<!-- End footer -->
+
+</BODY>
+</HTML>

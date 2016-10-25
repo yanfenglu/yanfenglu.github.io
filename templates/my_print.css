@@ -1,0 +1,143 @@
+BODY {
+	FONT-SIZE: 9pt; BACKGROUND: none transparent scroll repeat 0% 0%; MARGIN: 0px; WIDTH: 760px; COLOR: #222; FONT-FAMILY: arial, times, sans-serif; TEXT-ALIGN: justify; MIN-WIDTH: 760px; MAX-WIDTH: 760px
+}
+HR {
+	DISPLAY: none
+}
+CH {
+	DISPLAY: none
+}
+UL {
+	PADDING-LEFT: 10px; MARGIN-LEFT: 5px; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; LIST-STYLE-TYPE: square
+}
+UL LI {
+	PADDING-LEFT: 0px; MARGIN-TOP: 3px; MARGIN-BOTTOM: 3px
+}
+UL UL{
+	PADDING-LEFT: 10px; MARGIN-LEFT: 5px; LIST-STYLE-TYPE: disc
+}
+UL UL LI{
+	PADDING-LEFT: 0px; MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px
+}
+OL LI {
+	PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; LIST-STYLE-TYPE: upper-roman
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.8em; MARGIN-TOP: 20px; MARGIN-BOTTOM: 25px; FONT-FAMILY: times, arial, serif 
+}
+H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.5em; COLOR: #111; BORDER-BOTTOM: #333 1px dashed; MARGIN-TOP: 25px; MARGIN-BOTTOM: 20px; FONT-FAMILY: times, arial, serif 
+}
+H3 {
+	FONT-WEIGHT: normal; FONT-STYLE: italic; FONT-SIZE: 1.4em; COLOR: #000; MARGIN-TOP: 30px; MARGIN-BOTTOM: 15px; FONT-FAMILY: times, arial, serif 
+}
+H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.3em; MARGIN-TOP: 25px; MARGIN-BOTTOM: 15px; FONT-FAMILY: times, arial, serif
+}
+H5 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.2em; MARGIN-TOP: 20px; MARGIN-BOTTOM: 10px; COLOR: #111; FONT-FAMILY: arial, times, serif
+}
+P {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 6px
+}
+EM {
+	FONT-STYLE: italic
+}
+STRONG {
+	FONT-WEIGHT: bold; COLOR: #222; FONT-STYLE: normal
+}
+A {
+	COLOR: #6666cc; TEXT-DECORATION: none
+}
+A IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+TABLE {
+	MARGIN-LEFT: 40px; MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 2px; BORDER: #666 2px solid
+}
+TABLE CAPTION {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.0em; MARGIN-BOTTOM: 10px; COLOR: #444; FONT-FAMILY: times, arial, serif; TEXT-ALIGN: left
+}
+TABLE TD {
+	PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; TEXT-ALIGN: left; BACKGROUND: #fff; WHITE-SPACE: nowrap
+}
+TABLE TH {
+	PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center; BACKGROUND: #ccc
+}
+#diagram {
+	MARGIN-LEFT: 40px
+}
+#math {
+	MARGIN-LEFT: 50px; PADDING-TOP: 0px; PADDING-BOTTOM: 0px; FONT-FAMILY: times
+}
+#math TABLE {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; PADDING-BOTTOM: 0px; BORDER: none; BORDER-SPACING: 0px; WIDTH: 0px; HEIGHT: 0px
+}
+#math TABLE TD {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px; PADDING-BOTTOM: 0px; BACKGROUND: #fff; VERTICAL-ALIGN: top; TEXT-ALIGN: center; WHITE-SPACE: nowrap
+}
+.poemDividor {
+	margin: auto;
+	width: 90%;
+	padding: 20px;
+}
+#poem {
+	MARGIN-LEFT: 30px; PADDING-TOP: 0px; PADDING-BOTTOM: 0px; FONT-SIZE: 10pt; FONT-FAMILY: times, SimSun
+}
+#poem H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.2em; MARGIN-TOP: 15px; MARGIN-BOTTOM: 5px
+}
+#poem H5 {
+	FONT-STYLE: italic; FONT-SIZE: 1.1em; MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+#poem H6 {
+	FONT-STYLE: bold; FONT-SIZE: 1.0em; MARGIN-TOP: 0px; MARGIN-BOTTOM: 5px; PADDING-LEFT: 60px
+}
+#poem P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 10px; LINE-HEIGHT: 13pt
+}
+#poem TABLE {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px; MARGIN-TOP: 15px; MARGIN-BOTTOM: 0px; PADDING-TOP: 0px; PADDING-BOTTOM: 0px; BORDER: none; WIDTH: 0px; HEIGHT: 0px
+}
+#poem TABLE TD {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 50px; BACKGROUND: #fff; PADDING-TOP: 0px; PADDING-BOTTOM: 0px; VERTICAL-ALIGN: top; TEXT-ALIGN: left; LINE-HEIGHT: 13pt; WHITE-SPACE: nowrap
+}
+#photo {
+	MARGIN-LEFT: 30px; PADDING-TOP: 0px; PADDING-BOTTOM: 0px; FONT-SIZE: 7pt; FONT-FAMILY: times, SimSun
+}
+#photo IMG {
+	PADDING-LEFT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px
+}
+#photo TABLE {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px; MARGIN-TOP: 10px; MARGIN-BOTTOM: 5px; PADDING-TOP: 0px; PADDING-BOTTOM: 10px; BORDER: none; WIDTH: 0px; HEIGHT: 0px
+}
+#photo TABLE TD {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 10px; BACKGROUND: #fff; PADDING-TOP: 0px; PADDING-BOTTOM: 10px; VERTICAL-ALIGN: top; TEXT-ALIGN: left; WHITE-SPACE: nowrap
+}
+.photoBg img {
+	height: 250px
+}
+.photoGallery img {
+	height: 100px
+}
+#header {
+	MARGIN-BOTTOM: 50px; FONT-SIZE: 50px; TEXT-ALIGN: center
+}
+#header HR {
+	DISPLAY: none
+}
+#logo {
+	FLOAT: left
+}
+#navigation {
+	DISPLAY: none
+}
+#main {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-BOTTOM: 25px; PADDING-TOP: 0px; TEXT-ALIGN: justify
+}
+#footer {
+	CLEAR: both; PADDING-TOP: 10px; BORDER-TOP: #aaa 1px solid; FONT-SIZE: 0.9em; TEXT-ALIGN: center
+}
+#footer P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 4px
+}

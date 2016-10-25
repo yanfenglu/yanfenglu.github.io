@@ -1,0 +1,173 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+
+<HTML xmlns="http://www.w3.org/1999/xhtml">
+
+<HEAD>
+<TITLE>Yanfeng Lu's Homepage</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=utf-8">
+<META http-equiv=Content-Language content=en-us>
+<META content="Yanfeng Lu" name=KEYWORDS>
+<LINK title=graphics media=screen href="templates/my_style.css" type=text/css rel=stylesheet>
+<LINK title=graphics media=print href="templates/my_print.css" type=text/css rel=stylesheet>
+<SCRIPT type="text/javascript" src="templates/jquery.js"></SCRIPT>
+<SCRIPT type="text/javascript" src="templates/slimbox2.js"></SCRIPT>
+<LINK rel="stylesheet" href="templates/slimbox2.css" type="text/css" media="screen">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="templates/dropdowns.js"></script>
+</HEAD>
+
+<BODY>
+
+<!-- Start header -->
+<DIV id=header>
+  Yanfeng Lu
+</DIV>
+<!-- End header -->
+
+<!-- Show ruler only to old browsers which do not support CSS or text only browsers to separate content -->
+<HR>
+
+<!-- Start navigation -->
+<DIV id=navigation>
+
+<div class="toggleMenu" onclick="toggle3Bars(this)">
+  <div class="bar1"></div>
+  <div class="bar2"></div>
+  <div class="bar3"></div>
+</div>
+
+<UL class="nav">
+  <LI><A title="Profile and Contact" href="index.htm">Home</A></LI>
+  <LI><A title="Research Areas and Projects" href="research.htm">Research</A>
+    <UL>
+      <LI><A href="computer.htm">Computer Science</A>
+        <UL>
+          <LI><A href="researchVAS_p1.htm">HTS and Unit Selection</A></LI>
+          <LI><A href="researchVAS_p2.htm">TTS with Deep Learning</A></LI>
+        </UL></LI>
+      <LI><A href="philosophy.htm">Philosophy</A>
+        <UL>
+          <LI><A href="researchPOT_p1.htm">Characterization of Tech.</A></LI>
+          <LI><A href="researchPOT_p2.htm">Chinese Phil. of Tech.</A></LI>
+        </UL></LI>
+    </UL></LI>
+  <LI><A title="Art Interests and Practices" href="arts.htm">Arts</A>
+    <UL>
+      <LI><A href="photography.htm">Photography</A>
+        <UL>
+          <LI><A href="photosAmerica.htm">American West</A></LI>
+          <LI><A href="photosChina.htm">China</A></LI>
+          <LI><A href="photosEurope.htm">Europe</A></LI>
+          <LI><A href="photosSingapore.htm">Singapore</A></LI>
+        </UL></LI>
+      <LI><A href="poetry.htm">Poetry</A>
+        <UL>
+          <LI><A href="poemsSample.htm">Sample Poems</A></LI>
+          <LI><A href="poemsYeats.htm">William Yeats</A></LI>
+          <LI><A href="poemsHesse.htm">Hermann Hesse</A></LI>
+        </UL></LI>
+    </UL>
+  <LI><A title="Finished and Published Works" href="works.htm">Works</A></LI>
+  <LI><A title="Participated Activities" href="activities.htm">Activities</A></LI>
+  <LI><A title="Personal and Professional Background" href="background.htm">Background</A></LI>
+</UL>
+<A href="Chinese/index_c.htm" title="Go to Chinese version">中文</A>
+<A href="https://www.linkedin.com/in/yanfeng-lu-6914701">LinkedIn</A>
+
+</DIV>
+<!-- End navigation -->
+
+<script>
+    $("#navigation").dropdowns();
+</script>
+
+<!-- Start main body -->
+<DIV id=main>
+
+  <h1>Research Areas and Projects</h1>
+
+  <a name="_VAS"></a>
+  <h2>Research and Development at I<sup>2</sup>R: Multi-lingual Speech Synthesis</h2>
+  
+  <p>
+  <a href="#_AI">Philosophy and Methodology of AI</a><br>
+    &nbsp;&nbsp;<a href="#_computation">Computationalism</a><br>
+    &nbsp;&nbsp;<a href="#_connection">Connectionism</a><br>
+    &nbsp;&nbsp;<a href="#_interaction">Interactionism</a><br>
+    &nbsp;&nbsp;<a href="#_phenomen">Phenomenalism</a><br>
+    &nbsp;&nbsp;<a href="#_case">The case of text-to-speech synthesis</a><br>
+  <a href="researchVAS_p1.htm">Speech Synthesis Using HMM and Unit Selection</a><br>
+  <a href="researchVAS_p2.htm">Speech Synthesis with Deep Learning</a><br>
+  </p>
+
+  <a name="_AI"></a>
+  <h3>Philosophy and Methodology of Artificial Intelligence:<br>From Computationalism to Phenomenalism</h3>
+    <p>Putting speech synthesis in a large context helps understand it better. At first thought reading a text aloud seems to be a trivial task, but it actually involves a significant level of intelligence. Letting a computer perform the task belongs to an essential part of artificial intelligence (AI). A clarification of the philosophy and methodology of AI in general puts speech synthesis in a clear context.</p>
+
+    <p>AI is almost as old as modern computers. Its philosophy and methodology have evolved in its several decades of short history. Its basic assumptions have been challenged and modified and new methods have been developed. We may identify four major approaches.</p>
+
+  <a name="_computation"></a>
+  <h4>Computationalism and Rule-Basedness</h4>
+    <p><em>Basic Assumption: The human brain works essentially like a computer, so human intelligence can be completely achieved through a computer.</em></p>
+
+    <p>The first generation of AI researchers held the above strong assumption. In some cases a computer was literally called an "electronic brain." This was to a large extent based on the logical empiricist philosophy of science. This approach was vehemently criticised by Dreyfus. He identified its four specific assumptions (<em>What Computers Still Can't Do: A Critique of Artificial Reason</em>, MIT Press 1992, Part II):</p>
+    <ul>
+    <li><strong>The biological assumption</strong> The brain also processes information in a digital way as a computer does.</li>
+    <li><strong>The psychological assumption</strong> The mind works like a device operating on bits of information according to formal rules.</li>
+    <li><strong>The epistemological assumption</strong> All knowledge can be formalized in terms of formal logic.</li>
+    <li><strong>The ontological assumption</strong> The world, or what there is, in principle can be analyzed into situation-free, independent facts.</li>
+    </ul>
+    <p>Rules, especially logical rules, played a crucial role in the computationalist approach. With the loss of favour of logical empiricism and insurmountable obstacles encountered, this approach also went out of trend. We could call it "old-fashioned AI."</p>
+
+  <a name="_connection"></a>
+  <h4>Connectionism and Brain Simulation</h4>
+    <p><em>Basic Assumption: In order to create intelligence through the computer artificially, we have to simulate the human brain.</em></p>
+
+    <p>Facing the failure of the computationalist approach, the connectionist approach moved away from the strong computationalist claim. Now the human brain received some respect. But the connectionist view of the human brain is a neural network. So the simulation was to build an artificial neural network (ANN) with software. Explicit rules disappeared in an ANN. Instead there were only activation weights between layers of nodes, the virtual neurons. Due to the issue of convergence and great computation complexity ANNs built in the 1980s and 1990s had to be kept very simple, with only one middle layer between the input and output layers. This put a limit on the power of ANNs. Hence they went out of fashion quickly.</p> 
+    <p>Both issues were addressed significantly in the first decade of the new millennium, with effective pre-training methods and greatly improved computation power in computers. This allowed researchers to build much more complex ANNs. The age of deep learning was ushered. As usual, significant technological advancements always fanned wild fantasies and hyperbolic claims. We should be careful before we try to revive the old strong AI dreams.</p>
+    <p>The connectionist approach originally worked the best in pattern recognition. With more capturing power in deep ANNs, it will definitely find more application fields. However, it can be called brain simulation in a very loose sense. Is back-propagation really happening in the brain? In any way it's committed to the reductionist claim, that all the human brain is about can be reduced to the electro-chemical interaction among neurons as discovered by neuroscience.</p>
+
+  <a name="_interaction"></a>
+  <h4>Interactionism and the Sensory-Motor Model</h4>
+    <p><em>Basic Assumption: The interaction between the agent and the environment is an important foundation of intelligence.</em></p>
+
+    <p>Interactionism is a more natural approach than connectionism. Besides the brain the human body was also given due respect. To some extent this approach was inspired by Dreyfus's criticism. Under the influence of Heidegger's philosophy he held the view that intelligence had to be situated in a particular environment. It could not be based only on a "brain in a vat."</p>
+    <p>The interactionist approach is obviously the foundation of robotics. The sensory-motor model and learning are two essential features. As a robot actively explores its environment it interacts with its surrounding and modifies its own behavior. The limitation of this approach is that it can only be practically applied to lower level of intelligence.</p>
+    
+  <a name="_phenomen"></a>
+  <h4>Phenomenalism and Data-Drivenness</h4>
+    <p><em>Basic Assumption: Some part of human intelligence cannot, or is extremely difficult to, be achieved through bottom-up approaches. In this case we have to face and handle the phenomena directly.</em></p>
+
+    <p>The higher level of intelligence, such as language abilities, looks far beyond the reach of bottom-up approaches. If we start with neurons or sensory-motor interaction with the environment language seems to be light years away. In this case we need a phenomenalist approach. We don't need to care about how the intelligence is generated behind the curtain, but just pay attention to the phenomena of it. For instance, we could just treat speech as acoustic signal and handle features of it directly.</p>
+    <p>In a sense computationalism is also a type of phenomenalist approach. However it holds a simplistic view of the phenomena. It treats mind as computation and language as logical calculus. In contrast genuine phenomenalism gives the phenomena full respect. An important distinction lies in the fact that, whereas computationalism relies heavily on pre-defined rules, genuine phenomenalism is based on raw data.</p>
+
+  <a name="_case"></a>
+  <h4>The Case of Text-to-Speech Synthesis</h4>
+    <p>Language abilities belong to the higher level of human intelligence. No wonder human language processing (HLP) has been an essential part of AI. Since language has two formats, text and speech, an important part of HLP is conversion between these two formats. The conversion from speech to text is called speech recognition. The conversion in the opposite direction is speech synthesis. Although speech synthesis is relatively easy compared with other fields of HLP, as mentioned in the introduction, it's still a very challenging task. It's even more so when we aim higher.</p>
+    <p>Since ancient time, engineers have been trying to mimic human speech with machines. But significant results were only achieved in the 20th century. The speech synthesis systems have evolved in the past decades. The <strong>first generation systems</strong> (up to 1970s & early 1980s) adopted the approach of vocal tract simulation. In this case the output speech was generated from scratch with signal processing techniques on the basis of certain vocal tract model. Pre-defined rules were inevitable. But since hand written rules couldn't capture all the complexity of human speech, the generated speech could only reach basic intelligibility. The <strong>second generation systems</strong> (1980s & 1990s) tried to move away from explicit synthesis models and rely more on real speech data. Specifically diphones were extracted from real speech and concatenated to generate speech. In the concatenation process the pitch and timing of the diphones were modified with signal processing techniques and other techniques were applied at the boundaries. In the <strong>third generation systems</strong> (since late 1990s) real speech data became dominant, while signal processing was reduced to the minimum. The hidden Markov model and unit selection were two major techniques. Whereas the former was based on the statistical model of raw speech data, the latter used the raw data directly. With the most recent adoption of deep learning, the development of speech synthesis has entered a new phase. The <strong>fourth generation systems</strong> (since 2010s) take advantage of the significant modelling power of deep neural networks and have achieved direct modelling of wave samples using huge datasets. In this way, the role of signal processing is further reduced. The quality of the generated speech has been greatly improved in the fourth generation systems. In normal text reading, it's very close to human performance.</p>
+    <p>We may highlight the following points in the development of speech synthesis technology:<br>
+    <ul>
+    <li><strong>From rule-basedness to data-drivenness</strong> This was a distinct evolution pattern of the speech synthesis systems. From the first generation to the fourth generation the focus was shifted from rules to data.
+    <li><strong>The importance of statistical model</strong> In cases where explicit rules don't work well, statistics becomes important. We see the same phenomenon when we move from physics to social sciences.
+    <li><strong>The pursuit of naturalness</strong> This was the basic drive behind the evolution of the speech synthesis systems. Signal processing gradually gave way to raw data.
+    <li><strong>Hardware support</strong> The evolution of speech synthesis systems was made possible by the advancement in hardware capabilities. From vocal tract simulation to unit selection, from the hidden Markov model to deep neural networks, the requirements on processing speed and memory have been greatly lifted.
+    </ul>
+    <p>&nbsp</p>
+    <p>This guest lecture at National University of Singapore by me gives a <strong>historical introduction to speech synthesis</strong>: <a href="https://youtu.be/97ZxdOX4rCE">Part I</a>, <a href="https://youtu.be/LGH9hHji5C8">Part II</a></p>
+  
+</DIV>
+<!-- End main body -->
+
+<!-- Start footer-->
+<DIV id=footer>
+<HR>
+<P><strong>Copyright © 2013-2023 Yanfeng Lu</strong><br>Institute for Infocomm Research, A*STAR Singapore</P>
+<P align=justify>All the texts, images, audios, videos and designs contained in this website are the intellectual property of the owner. Academic or personal uses should be accompanied by clear source specification. Commercial uses are permitted only with formal letters from the owner. All rights reserved!</P>
+<P align=justify>Institute for Infocomm Research is where the author does his current research in computer science. All the other contents are the personal work of the author and are not associated with the institute.</P>
+<P>Last updated on 
+Wed, 11 Jan. 2023</DIV>
+<!-- End footer -->
+
+</BODY>
+</HTML>
