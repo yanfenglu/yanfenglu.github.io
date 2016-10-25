@@ -1,0 +1,345 @@
+BODY {
+	BORDER-LEFT: #bbb 2px solid; BORDER-RIGHT: #bbb 2px solid; BORDER-TOP: #bbb 4px solid; BORDER-BOTTOM: #bbb 2px solid; MARGIN-LEFT: auto; MARGIN-RIGHT: auto; MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; WIDTH: 820px; MIN-WIDTH: 820px; MAX-WIDTH: 820px; COLOR: #222; FONT-SIZE: 11pt; FONT-FAMILY: arial, times, sans-serif; TEXT-ALIGN: justify
+}
+HR {
+	DISPLAY: none
+}
+CH {
+	DISPLAY: none
+}
+UL {
+	PADDING-LEFT: 10px; MARGIN-LEFT: 5px; MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; LINE-HEIGHT: 1.4em; LIST-STYLE-TYPE: square
+}
+UL LI {
+	PADDING-LEFT: 0px; MARGIN-TOP: 3px; MARGIN-BOTTOM: 3px
+}
+UL UL{
+	PADDING-LEFT: 10px; MARGIN-LEFT: 5px; LIST-STYLE-TYPE: disc
+}
+UL UL LI{
+	PADDING-LEFT: 0px; MARGIN-TOP: 2px; MARGIN-BOTTOM: 2px
+}
+OL LI {
+	PADDING-LEFT: 0px; BACKGROUND: none transparent scroll repeat 0% 0%; LIST-STYLE-TYPE: upper-roman
+}
+H1 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.8em; MARGIN-TOP: 20px; MARGIN-BOTTOM: 25px; FONT-FAMILY: times, arial, serif 
+}
+H2 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.5em; COLOR: #111; PADDING-BOTTOM: 2px; BORDER-BOTTOM: #eee 2px solid; MARGIN-TOP: 35px; MARGIN-BOTTOM: 20px; FONT-FAMILY: times, arial, serif 
+}
+H3 {
+	FONT-WEIGHT: normal; FONT-STYLE: italic; FONT-SIZE: 1.4em; COLOR: #000; MARGIN-TOP: 35px; MARGIN-BOTTOM: 15px; FONT-FAMILY: times, arial, serif 
+}
+H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.3em; MARGIN-TOP: 30px; MARGIN-BOTTOM: 15px; FONT-FAMILY: times, arial, serif
+}
+H5 {
+	FONT-WEIGHT: normal; FONT-SIZE: 1.2em; MARGIN-TOP: 20px; MARGIN-BOTTOM: 10px; COLOR: #111; FONT-FAMILY: arial, times, serif
+}
+P {
+	MARGIN-TOP: 4px; MARGIN-BOTTOM: 6px; LINE-HEIGHT: 1.4em
+}
+EM {
+	FONT-STYLE: italic
+}
+STRONG {
+	FONT-WEIGHT: bold; COLOR: #555; FONT-STYLE: normal
+}
+A {
+	COLOR: #6666cc; TEXT-DECORATION: none
+}
+A:hover {
+	BACKGROUND: #6666cc; COLOR: #fff; TEXT-DECORATION: none
+}
+IMG {
+	BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN-BOTTOM: 10px
+}
+AUDIO {
+	MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px
+}
+TABLE {
+	MARGIN-LEFT: 40px; MARGIN-TOP: 10px; MARGIN-BOTTOM: 10px; PADDING-BOTTOM: 2px; BORDER: #666 2px solid
+}
+TABLE CAPTION {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.0em; MARGIN-BOTTOM: 5px; COLOR: #444; FONT-FAMILY: times, arial, serif; TEXT-ALIGN: left
+}
+TABLE TD {
+	PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-TOP: 0px; PADDING-BOTTOM: 3px; VERTICAL-ALIGN: top; TEXT-ALIGN: left; BACKGROUND: #fff
+}
+TABLE TH {
+	PADDING-LEFT: 5px; PADDING-RIGHT: 5px; PADDING-BOTTOM: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center; BACKGROUND: #ccc
+}
+#diagram {
+	MARGIN-LEFT: 5%; MARGIN-RIGHT: 5%;
+}
+#diagram IMG {
+	MARGIN-BOTTOM: 0px
+}
+#math {
+	MARGIN-LEFT: 50px; PADDING-TOP: 0px; PADDING-BOTTOM: 0px; FONT-FAMILY: times
+}
+#math TABLE {
+	MARGIN: 0px; PADDING: 0px; BORDER: none; BORDER-SPACING: 0px; WIDTH: 0px; HEIGHT: 0px
+}
+#math TABLE TD {
+	PADDING: 0px; BACKGROUND: #fff; VERTICAL-ALIGN: top; TEXT-ALIGN: center; WHITE-SPACE: nowrap
+}
+.poemDividor {
+	margin: auto;
+	width: 90%;
+	padding: 15px;
+}
+#poem {
+	MARGIN-LEFT: 30px; PADDING-TOP: 0px; PADDING-BOTTOM: 10px; FONT-SIZE: 11pt; FONT-FAMILY: times, SimSun
+}
+#poem H4 {
+	FONT-WEIGHT: bold; FONT-SIZE: 1.2em; MARGIN-TOP: 15px; MARGIN-BOTTOM: 5px
+}
+#poem H5 {
+	FONT-STYLE: italic; FONT-SIZE: 1.1em; MARGIN-TOP: 5px; MARGIN-BOTTOM: 5px
+}
+#poem H6 {
+	FONT-STYLE: bold; FONT-SIZE: 1.0em; MARGIN-TOP: 0px; MARGIN-BOTTOM: 5px; PADDING-LEFT: 60px
+}
+#poem P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 0px; PADDING-LEFT: 15px; TEXT-INDENT: -15px; LINE-HEIGHT: 1.5em
+}
+#photo {
+	MARGIN-LEFT: 20px; PADDING-TOP: 0px; PADDING-BOTTOM: 0px; FONT-SIZE: 9pt; FONT-FAMILY: times, SimSun
+}
+#photo IMG {
+	PADDING-LEFT: 0px; BORDER-TOP-WIDTH: 0px; BORDER-LEFT-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; BORDER-RIGHT-WIDTH: 0px; MARGIN-BOTTOM: 0px
+}
+#photo TABLE {
+	MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px; MARGIN-TOP: 10px; MARGIN-BOTTOM: 5px; PADDING-TOP: 10px; PADDING-BOTTOM: 0px; BORDER: none; WIDTH: 0px; HEIGHT: 0px
+}
+#photo TABLE TD {
+	PADDING-LEFT: 0px; PADDING-RIGHT: 10px; BACKGROUND: #fff; PADDING-TOP: 0px; PADDING-BOTTOM: 10px; VERTICAL-ALIGN: top; TEXT-ALIGN: left; WHITE-SPACE: nowrap
+}
+.photoBg img {
+	height: 250px
+}
+.photoGallery img {
+	height: 100px
+}
+#header {
+	PADDING-LEFT: 150px; PADDING-RIGHT: 20px; BACKGROUND: url(../images/graphics/i2rlogo.jpg) no-repeat 70px 18px; BACKGROUND-SIZE: auto 70px; PADDING-TOP: 25px; HEIGHT: 70px; FONT-SIZE: 50px; TEXT-ALIGN: center
+}
+#logo {
+	FLOAT: left; MARGIN-LEFT: 95px; PADDING-TOP: 55px
+}
+#navigation {
+	BACKGROUND: url(../images/graphics/grad1.jpg) #ccc repeat-x 50% top; MARGIN: 0px; PADDING-TOP: 4px; PADDING-LEFT: 70px; PADDING-RIGHT: 70px; BORDER-BOTTOM: #eee 4px solid; HEIGHT: 30px; FONT-WEIGHT: bold
+}
+#navigation UL {
+	MARGIN: 0px; PADDING: 0px; LIST-STYLE-TYPE: none
+}
+#navigation LI {
+	BORDER-LEFT: #eee 2px solid; PADDING-LEFT: 4px; PADDING-RIGHT: 4px; BACKGROUND: none transparent scroll repeat 0% 0%; PADDING-TOP: 5px; PADDING-BOTTOM: 5px; FLOAT: left
+}
+#navigation A {
+	DISPLAY: block; PADDING-LEFT: 6px; PADDING-RIGHT: 6px; COLOR: #666; TEXT-DECORATION: none; FLOAT: right
+}
+#navigation > A {
+	MARGIN-TOP: 4px; LINE-HEIGHT: 23px; PADDING-TOP: 2px
+}
+#navigation LI UL {
+	DISPLAY: none; WIDTH: 9.6em; BACKGROUND: #ccc; BORDER: 3px solid #44a; BORDER-RADIUS: 5px
+}
+#navigation LI LI {
+	DISPLAY: list-item; BORDER-LEFT: none; PADDING: 0px; MARGIN: 0px; FONT-WEIGHT: normal; FLOAT: none
+}
+#navigation A:hover {
+	BACKGROUND-COLOR: #ccc; COLOR: #fff
+}
+#navigation LI.hover UL {
+	DISPLAY: block; POSITION: absolute; MARGIN-LEFT: 3px; MARGIN-TOP: 19px; PADDING-TOP: 5px; PADDING-BOTTOM: 5px
+}
+#navigation LI.hover LI UL {
+	DISPLAY: none; LEFT: 9.2em; WIDTH: 12.8em; BACKGROUND: #ccc; BORDER: 2px solid #66d; BORDER-RADIUS: 5px
+}
+#navigation LI.hover LI A {
+	BACKGROUND-COLOR: #ccc; COLOR: #000; FLOAT: none
+}
+#navigation LI LI A:hover {
+	BACKGROUND-COLOR: #aaa; COLOR: #fff
+}
+#navigation LI LI.hover UL {
+	DISPLAY: block; POSITION: absolute; MARGIN-TOP: -20px; PADDING-TOP: 5px; PADDING-BOTTOM: 5px
+}
+#navigation LI LI.hover LI A {
+	BACKGROUND-COLOR: #ccc; COLOR: #000; FLOAT: none
+}
+#navigation LI LI LI A:hover {
+	BACKGROUND-COLOR: #aaa; COLOR: #fff
+}
+#navigation #currentsection {
+	FONT-WEIGHT: bold; TEXT-DECORATION: underline
+}
+.toggleMenu {
+	display:  none;
+	cursor: pointer;
+	float: left;
+	padding-top: 2px;
+	padding-right: 4px
+}
+.bar1, .bar2, .bar3 {
+	width: 27px;
+	height: 3px;
+	background-color: #333;
+	margin: 5px 0;
+	transition: 0.4s;
+}
+/* Rotate first bar */
+.change .bar1 {
+	-webkit-transform: rotate(-45deg) translate(-6px, 5px) ;
+	transform: rotate(-45deg) translate(-6px, 5px) ;
+}
+/* Fade out the second bar */
+.change .bar2 {
+	opacity: 0;
+}
+/* Rotate last bar */
+.change .bar3 {
+	-webkit-transform: rotate(45deg) translate(-6px, -6px) ;
+	transform: rotate(45deg) translate(-6px, -6px) ;
+}
+#main {
+	BORDER-TOP: #999 2px solid; PADDING-LEFT: 70px; PADDING-RIGHT: 70px; BACKGROUND: #fff; PADDING-BOTTOM: 30px; PADDING-TOP: 20px; TEXT-ALIGN: justify
+}
+#footer {
+	CLEAR: both; BORDER-TOP: #ddd 4px solid; PADDING-LEFT: 70px; PADDING-RIGHT: 70px; PADDING-TOP: 10px; PADDING-BOTTOM: 20px; FONT-SIZE: 8pt; TEXT-ALIGN: center
+}
+#footer P {
+	MARGIN-TOP: 0px; MARGIN-BOTTOM: 4px; LINE-HEIGHT: 1.3em
+}
+
+@media screen and (max-width: 796px) {
+	BODY {
+		BORDER: none; MARGIN: none; MIN-WIDTH: 0px; MARGIN-TOP: 2px; MARGIN-BOTTOM: 0px; WIDTH: auto; FONT-SIZE: 12pt; 
+	}
+	UL {
+		LINE-HEIGHT: 1.8em
+	}
+	UL TABLE {
+		LINE-HEIGHT: 1.1em
+	}
+	#poem P {
+		LINE-HEIGHT: 1.6em
+	}
+	#header {
+		PADDING-LEFT: 150px; PADDING-RIGHT: 2px; BACKGROUND: url(../images/graphics/i2rlogo.jpg) no-repeat 28px 0px; BACKGROUND-SIZE: auto 70px; PADDING-TOP: 12px; HEIGHT: 67px; FONT-SIZE: 48px; TEXT-ALIGN: center
+	}
+	#navigation { 
+		PADDING-LEFT: 30px; PADDING-RIGHT: 30px; 
+	}
+	#navigation UL { 
+		DISPLAY: none; POSITION: absolute; MARGIN: 0px; MARGIN-TOP: 29px; PADDING: 0px; BACKGROUND: #ccc; WIDTH: 250px;
+	}
+	#navigation LI {
+		MARGIN: 0px ; PADDING: 0px; FLOAT: none
+	}
+	#navigation LI A {
+		BORDER: #6666cc 1px solid; PADDING-LEFT: 6px; PADDING-RIGHT: 4px; PADDING-TOP: 2px; PADDING-BOTTOM: 2px; HEIGHT: 25px; FLOAT: none
+	}
+	#navigation LI.hover UL {
+		DISPLAY: block; POSITION: relative; BORDER: none; MARGIN: 0px; PADDING: 0px; WIDTH: 248px;
+	}
+	#navigation LI.hover LI A {
+		MARGIN: 0px; PADDING-LEFT: 14px; PADDING-TOP: 2px; HEIGHT: 25px; FLOAT: none
+	}
+	#navigation LI LI A:hover {
+		BACKGROUND-COLOR: #ccc; COLOR: #fff
+	}
+	#navigation LI LI.hover UL {
+		DISPLAY: block; POSITION: relative; LEFT: 0px; BORDER: none; MARGIN: 0px; PADDING: 0px; WIDTH: 248px; 
+	}
+	#navigation LI LI.hover LI A {
+		MARGIN: 0px; PADDING-LEFT: 22px; PADDING-TOP: 2px; HEIGHT: 25px; FLOAT: none
+	}
+	#navigation LI LI LI A:hover {
+		BACKGROUND-COLOR: #ccc; COLOR: #fff
+	}
+	#main {
+		PADDING-LEFT: 30px; PADDING-RIGHT: 30px; PADDING-BOTTOM: 30px; PADDING-TOP: 10px; TEXT-ALIGN: left
+	}
+	#main P{
+		LINE-HEIGHT: 1.8em
+	}
+	#footer {
+		PADDING-LEFT: 30px; PADDING-RIGHT: 30px; FONT-SIZE: 10pt; 
+	}
+	#footer P {
+		LINE-HEIGHT: 1.5em
+	}
+	.nav li .more {
+		font-size: 15pt;
+		font-weight: normal;
+		text-align: right;
+		float: right;
+		height: 24px;
+		width: 12%;
+		border-left: #66d 2px solid;
+		padding: 0px;
+		padding-top: 2px;
+		padding-bottom: 4px;
+		padding-right: 12px;
+		margin: 0px;
+		margin-top: 1px;
+		cursor: pointer;
+		z-index: 200;
+		position: relative;
+	}
+}
+
+@media screen and (max-width: 550px) {
+	TABLE {
+		MARGIN-LEFT: 0px
+	}
+	TABLE TD {
+		PADDING-LEFT: 2px; PADDING-RIGHT: 2px; FONT-SIZE: 10pt
+	}
+	TABLE TH {
+		PADDING-LEFT: 2px; PADDING-RIGHT: 2px
+	}
+	#diagram {
+		MARGIN-LEFT: 0px; MARGIN-RIGHT: 0px
+	}
+	#poem {
+		MARGIN-LEFT: 8px
+	}
+	#poem P {
+		FONT-SIZE: 11pt
+	}
+	#math {
+		MARGIN-LEFT: 20px
+	}
+	#math TABLE TD {
+		FONT-SIZE: 11pt;
+	}
+	#photo {
+		MARGIN-LEFT: 0px
+	}
+	#photo TABLE TD {
+		PADDING-RIGHT: 3px; PADDING-BOTTOM: 3px
+	}
+	.photoBg img {
+		height: 150px
+	}
+	.photoGallery img {
+		height: 60px
+	}
+	#header {
+		PADDING-LEFT: 80px; PADDING-RIGHT: 14px; BACKGROUND: url(../images/graphics/astarlogo.jpg) no-repeat 12px 5px; BACKGROUND-SIZE: auto 65px; PADDING-TOP: 12px; HEIGHT: 67px; FONT-SIZE: 46px; TEXT-ALIGN: center
+	}
+	#navigation { 
+		PADDING-LEFT: 14px; PADDING-RIGHT: 14px
+	}
+	#main {
+		PADDING-LEFT: 14px; PADDING-RIGHT: 14px
+	}
+	#footer {
+		PADDING-LEFT: 14px; PADDING-RIGHT: 14px
+	}
+}
