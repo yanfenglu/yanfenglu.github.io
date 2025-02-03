@@ -238,13 +238,16 @@ TABLE TH {
 		DISPLAY: none; POSITION: absolute; MARGIN: 0px; MARGIN-TOP: 29px; PADDING: 0px; BACKGROUND: #ccc; WIDTH: 250px;
 	}
 	#navigation LI {
-		MARGIN: 0px ; PADDING: 0px; FLOAT: none
+		MARGIN: 0px ; PADDING: 0px; FLOAT: none; POSITION: relative; OVERFLOW: hidden;
 	}
 	#navigation LI A {
 		BORDER: #6666cc 1px solid; PADDING-LEFT: 6px; PADDING-RIGHT: 4px; PADDING-TOP: 2px; PADDING-BOTTOM: 2px; HEIGHT: 25px; FLOAT: none
 	}
 	#navigation LI.hover UL {
-		DISPLAY: block; POSITION: relative; BORDER: none; MARGIN: 0px; PADDING: 0px; WIDTH: 248px;
+		DISPLAY: block; POSITION: relative; OVERFLOW: hidden; BORDER: none; MARGIN: 0px; PADDING: 0px; WIDTH: 248px;
+	}
+	#navigation LI.hover LI{
+		MARGIN: 0px ; PADDING: 0px; FLOAT: none; POSITION: relative; OVERFLOW: hidden;
 	}
 	#navigation LI.hover LI A {
 		MARGIN: 0px; PADDING-LEFT: 14px; PADDING-TOP: 2px; HEIGHT: 25px; FLOAT: none
@@ -253,7 +256,10 @@ TABLE TH {
 		BACKGROUND-COLOR: #ccc; COLOR: #fff
 	}
 	#navigation LI LI.hover UL {
-		DISPLAY: block; POSITION: relative; LEFT: 0px; BORDER: none; MARGIN: 0px; PADDING: 0px; WIDTH: 248px; 
+		DISPLAY: block; POSITION: relative; OVERFLOW: hidden; LEFT: 0px; BORDER: none; MARGIN: 0px; PADDING: 0px; WIDTH: 248px; 
+	}
+	#navigation LI LI.hover LI{
+		MARGIN: 0px ; PADDING: 0px; FLOAT: none; POSITION: relative; OVERFLOW: hidden;
 	}
 	#navigation LI LI.hover LI A {
 		MARGIN: 0px; PADDING-LEFT: 22px; PADDING-TOP: 2px; HEIGHT: 25px; FLOAT: none
